@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naman Adwani - Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <h1>Naman Adwani</h1>
+      <p>Student | Leader | Volunteer</p>
+    </div>
+    <nav class="nav-links" id="navMenu">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>A passionate learner, good leader, event manager and content creator with experience in leading school teams, anchoring and managing events, and producing impactful videos.</p>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education 🎓</h2>
+      <ul>
+        <li>ST. Paul's Convent Sr. Sec. School (CBSE) - 10th Grade</li>
+        <li>ST. Paul's Convent Sr. Sec. School (CBSE) – Commerce Stream (Class 11–12)</li>
+        <li>Currently pursuing online degree program from Indian Institute Of Management Bangalore</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience 📝</h2>
+      <ul>
+        <li>School Leader - St. Paul's Convent Sr. Sec. School</li>
+        <li>Volunteer - Achievers Innovative Mission Foundation (NGO) (3+ years)</li>
+        <li>Completed three consecutive annual internship programs focused on social impact initiatives during Republic Day events (2023-2025)</li>
+        <li>Anchored & Managed city-level events with Chief Guests including CM of Madhya Pradesh (Dr. Mohan Yadav)</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="card skills-grid">
+      <h2>Skills 📊</h2>
+      <ul>
+        <li>-> Leadership & Team Management</li>
+        <li>-> Anchoring & Public Speaking</li>
+        <li>-> Video Editing & Scriptwriting</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact 📞</h2>
+      <p>Phone number: +91 87702 9xxxx</p>
+      <p>Email: namxx@gmail.com</p>
+      <p>Instagram: Naman__Adwani__</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Crafted with code 💻, coffee ☕️, and creativity ✨ by Naman Adwani</p>
+  </footer>
+  
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
+
